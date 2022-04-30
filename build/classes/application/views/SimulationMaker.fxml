@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" styleClass="parent" stylesheets="@../css/Stylesheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controls.SimulationMakerController">
+   <children>
+      <JFXButton fx:id="StartSimulation" buttonType="RAISED" layoutX="766.0" layoutY="661.0" onAction="#StartSimulationBtn" styleClass="start-btn" text="StartSimulation" />
+      <JFXButton fx:id="StopSimulation" buttonType="RAISED" layoutX="886.0" layoutY="661.0" onAction="#StopSimulation" styleClass="start-btn" text="StopSimulation" />
+      <AnchorPane fx:id="drawPanel" layoutX="45.0" layoutY="42.0" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#addStationLisner" prefHeight="604.0" prefWidth="938.0" styleClass="SimPanel" />
+      <JFXButton fx:id="StartSimulation1" buttonType="RAISED" layoutX="45.0" layoutY="661.0" onAction="#ResetBtn" styleClass="start-btn" text="Reset" />
+   </children>
+</AnchorPane>

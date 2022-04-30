@@ -1,0 +1,16 @@
+.parent{
+    -fx-background-color: #303138;
+}
+
+.start-btn {
+    -fx-background-color: #EA4C88;
+    -fx-text-fill: #FFFFFF;
+}
+
+.SimPanel {
+    -fx-background-color: #FFFFFF;
+}
+
+.text {
+    -fx-background-color: #673DE6;
+}

@@ -4,3 +4,4 @@ Dans un réseau locaI (LAN), tous les participants au réseau partagent un mediu
 
 # Ui
 ![](Csma_app.png)
+![](Csma_App2.png)
